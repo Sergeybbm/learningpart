@@ -1,0 +1,2142 @@
+#City = input("Where are you from? ")
+#print ("Wow, Exellent From", City)
+
+#num_1 = input ( "Enter First Name: " )
+#num_2 = input ( "Enter Second Name: " )
+#num_3 = input("How old are you? ")
+
+#res = num_1 +' '+ num_2
+#res2 = num_3
+#res3 = input("Enter test: ")
+#res3 *=5 + 'Gay'
+
+#print(res3)
+#print ("Show me:" , res)
+#print ("You very young:" ,res2, "Not bad")
+
+#num_1 = input("Your Name:")
+#if num_1 == "Sergey":
+ #   print("You are Cool\n")
+ #  print("All is Ok!")
+#elif num_1 == "Victor":
+ #   print("Gay :))))")
+#else:
+#    print("Kuson")
+
+
+#i = 1
+#while i<100:
+ #   print(i)
+  #  i *=2
+
+#for j in 'Hello world':
+    #if j== 'w':
+     #   break
+    #print (j*5, end = '')
+
+#for h in 'Hello world\n':
+ #       if h == 'a':
+  #          continue
+   #     print (h*1, end ='')
+#else:
+    #print ('Буквы а нет в этих словах')
+#A=[]
+#Anton = [ 'Israel', '33',' Ashdod' ]
+#print(Anton)
+
+#i = 1000
+#while i > 100:
+#    print (i)
+ #   i /=2
+
+#for j in 'Hello World':
+   # print (j*2, end = '')
+
+#age=int(input("Введите свой возраст:"))
+#if age>=1 and age<18:
+ #    print("Вход бесплатный.")
+#elif age>=19 and age<35:
+ #    print("Цена-100 рублей.")
+#elif age>=36 and age<79:
+#     print("Цена-200 рублей.")
+#else:
+#     print("Ошибка!")
+
+#answer = input("Хочешь сыграть в игру?\n")
+#ACCESS = "Да", "да"
+
+#while answer in ACCESS:
+ #   game = int(input("Загадай число от 1 до 5\n"))
+  #  if game in range(1, 6):
+   #     if game != 3:
+    #        print("Ты проиграл!")
+     #   elif game == 3:
+      #      print("Ты выиграл")
+       #     answer = ""
+    #else:
+    #    print("Ты не понял. Перечитай условие.\n")
+
+#person = {Names' :{First_Name': 'Sergey'; 'Second_Name': 'Ivanushin'}}
+#print (person ['Name'],[Firs_Name])
+
+#a = {i **2 for i in range (10)}
+#a = {}
+#print (type(a))
+#print (a)
+
+#def func (x):
+#    def add (a):
+#        return x + a
+#    return add
+#test = func (2400000)
+#print (test(240000))
+
+#try:
+#    home = int(input("Сумма квартиры аренда в России за месяц: \n"))
+#except ValueError:
+#     print("Вы ввели буквы")
+#def func (a, b = 3000):
+#    res = (a * 12) - (b * 12)
+#    res1 = res /66
+#    res2 = res1 * 3.6
+#    res3 = res2 * 1                 # За год
+#    return res3
+#print (func (home), 'шекелей за 1 год\n')
+
+#try:
+#    salary = int(input("Сколько зарплата у вас на двоих? \n"))
+#except ValueError:
+#        print("Вы ввели буквы")
+#def func (z, h = 12):
+#     res4 = (z * h) * 1              # За год
+#     return res4
+#print (func (salary),'шекелей за 1 год\n')
+
+#try:
+#    Mashkanta = int(input("Введите сумму вашей Машканты в Месяц:\n"))
+#except ValueError:
+#     print("Вы ввели буквы\n")
+#def func (r, j = 12):
+#    res5 = (r * j) * 28
+#    return res5
+#print (func (Mashkanta),'шекелей за 28 лет\n')
+
+#print ('Охуеешь платить')
+
+
+#age=int(input("Введите свой возраст:"))
+#if age>=1 and age<18:
+#     print("Вход бесплатный.")
+#elif age>=19 and age<35:
+#     print("Цена-100 рублей.")
+#elif age>=36 and age<79:
+#     print("Цена-200 рублей.")
+#else:
+#     print("Ошибка!")
+
+#from datetime import datetime
+
+#now = datetime.now()
+#print (now)
+
+
+
+#current_year = now.year
+#current_month = now.month
+#current_day = now.day
+
+#print (now.day,':',now.month,':',now.year)
+
+
+#from datetime import datetime
+#now = datetime.now()
+#print ('%02d/%02d/%04d' % (now.month, now.day, now.year))
+
+
+#from datetime import datetime
+#now = datetime.now()
+
+#print ('%s:%s:%s' % (now.day, now.month, now.year))
+
+
+#from datetime import datetime
+#now = datetime.now()
+
+#print ('%s:%s:%s' % (now.day, now.month, now.year))
+#print ('%s:%s:%s' % (now.hour, now.minute, now.second))
+
+
+#from datetime import datetime
+#now = datetime.now()
+
+#print ('%04d:%02d:%02d' % (now.year, now.month, now.day))
+#print ('%02d:%02d:%02d' % (now.hour, now.minute, now.second))
+
+from datetime import datetime
+#now = datetime.now()
+
+#print ('%02d/%02d/%04d %02d:%02d:%02d' % (now.month, now.day, now.year, now.hour, now.minute, now.second))
+
+
+
+
+
+#def clinic():
+#    print ("Youve just entered the clinic! Do you take the door on the left or the right?")
+#    answer = raw_input("Type left or right and hit 'Enter'.").lower()
+#    if answer == "left" or answer == "l":
+#        print ("This is the Verbal Abuse Room, you heap of parrot droppings!")
+#    elif answer == "right" or answer == "r":
+#        print ("Of course this is the Argument Room, I've told you that already!")
+#    else:
+#        print ("You didn't pick left or right! Try again.")
+#       clinic()
+#clinic()
+
+
+#class Person:
+#   name = "Ivan"
+#  age = 1Z
+#    def __set(self, name, age):
+#        self.name = name
+#        self.age = age
+
+
+#class Student(Person):
+#    course = 1
+
+
+#igor = Student()
+#igor._Person__set("Igor", 19)
+#igor.course = 5
+#print(igor.course)
+
+#vlad = Person()
+#vlad._Person__set("NASTYA", 34)
+#print(vlad.name + " " + str(vlad.age))
+
+#ivan = Person()
+#ivan._Person__set("Иван", 56)
+#print(ivan.age)
+
+#AND
+
+#bool_one = False and False
+
+#bool_two = -(-(-(-2))) == -2 and 4 >= 16 ** 0.5
+
+#bool_three = 19 % 4 != 300 / 10 / 10 and False
+
+#bool_four = -(1 ** 2) < 2 ** 0 and 10 % 10 <= 20 - 10 * 2
+
+#bool_five = True and True
+
+#OR
+
+#bool_one = 2 ** 3 == 108 % 100 or 'Cleese' == 'King Arthur'
+
+#bool_two = True or False
+
+#bool_three = 100 ** 0.5 >= 50 or False
+
+#bool_four = True or True
+
+#bool_five = 1 ** 100 == 100 ** 1 or 3 * 2 * 1 != 3 + 2 + 1
+
+#NOT
+
+#bool_one = not True
+
+#bool_two = not 3 ** 4 < 4 ** 3
+
+#bool_three = not 10 % 3 <= 10 % 2
+
+
+#bool_four = not 3 ** 2 + 4 ** 2 != 5 ** 2
+
+#bool_five = not not False
+
+#This and That (or This, But Not That!)
+
+#bool_one = False or not True and True
+
+#bool_two = False and not True or True
+
+#bool_three = True and not (False or False)
+
+#bool_four = not not True or False and not True
+
+#bool_five = False or not (True and True)
+
+
+
+#def using_control_once():
+#    if True:
+#        return "Success #1"
+
+#def using_control_again():
+#    if True:
+#        return "Success #2"
+
+#print using_control_once()
+#print using_control_again()
+
+
+#answer = input("Хочешь сыграть в игру?\n")
+#ACCESS = "Да", "да", "Da", "DA"
+
+#while answer in ACCESS:
+#   game = int(input("Загадай число от 1 до 5\n"))
+#     if game in range(1, 6):
+#        if game != 3:
+#            print("Ты проиграл!")
+#        elif game == 3:
+#            print("Ты выиграл")
+#            answer = ""
+#      else:
+#          print("Ты не понял. Перечитай условие.\n")
+
+
+#answer = input("   ?\n")
+#ACCESS = "", "", "Da", "DA"
+
+#while answer in ACCESS:
+#   game = int(input("input a word in English.\n\\"))
+#    if game in range(1, 6):
+#        if game != 3:
+#            print(" !")
+#        elif game == 3:
+#            print(" ")
+#            answer = ""
+#    else:
+#        print("  .  .\n")
+
+
+
+
+
+
+#print "Welcome to the Pig Latin Translator!"
+
+#original = raw_input("Enter a word:")
+#if len(original) > 0 and original.isalpha():
+#  print original
+#else:
+#  print "empty"
+
+#pyg = 'ay'
+
+#original = raw_input('Enter a word:')
+
+#if len(original) > 0 and original.isalpha():
+#  word = original.lower()
+#  first = word[0]
+#  new_word = word + first + pyg
+#  new_word = new_word[1:len(new_word)]
+#  print (new_word)
+#else:
+#    print 'empty'
+
+#import numpy as np
+#from mpl_toolkits.basemap import Basemap
+#import matplotlib.pyplot as plt
+#from datetime import datetime
+
+# miller projection
+#map = Basemap(projection=’mill’,lon_0=180)
+
+# plot coastlines, draw label meridians and parallels.
+#map.drawcoastlines()
+#map.drawparallels(np.arange(-90,90,30),labels=[1,0,0,0])
+#map.drawmeridians(np.arange(map.lonmin,map.lonmax+30,60),labels=[0,0,0,1])
+
+# fill continents ‘coral’ (with zorder=0), color wet areas ‘aqua’
+#map.drawmapboundary(fill_color=’aqua’)
+#map.fillcontinents(color=’coral’,lake_color=’aqua’)
+
+# shade the night areas, with alpha transparency so the
+# map shows through. Use current time in UTC.
+#date = datetime.utcnow()
+#CS=map.nightshade(date)
+#plt.title(‘Day/Night Map for %s (UTC)’ % date.strftime(«%d %b %Y %H:%M:%S»))
+#plt.show()
+
+#import requests
+#response = requests.get ('https://my-hit.org/')
+#print(response.content)
+
+#s = 'И снова независимо от имен этих строковых методов, применяя методы, \n мы не изменяем оригинальную строку, а созд \n аем новую, т. к. строки являются не- изменяемыми, и это следует учитывать. \n Строковые методы – это первый уро- вень в комплекте инструментальных средств обработки текста языка Python. \n Другие методы позволяют разбивать строки на подстроки по определенном'
+#s = s.replace('о', ' Sergey ')
+#x = spaam
+#x = 4
+#while x > 0:
+#    print('spam' * x)
+#    x -= 1
+
+#a = 3
+#b = 7
+#d = a != 1, b + 2
+#print(d)
+
+
+#c = 2**2
+#print(c)
+
+#X = 0xFFFFFFFFFFFFFFFFFFF
+#print(X)
+
+#import random
+#for i in range (6):
+#     print(random.randint(1,37))
+
+#try:
+#    home = int(input("Сумма квартиры аренда в России за месяц: \n"))
+#except ValueError:
+#     print("Вы ввели буквы")
+#def func (a, b = 3000):
+#    res = (a * 12) - (b * 12)
+#    res1 = res /66
+#    res2 = res1 * 3.6
+#    res3 = res2 * 1                 # За год
+#    return res3
+#print (func (home), 'шекелей за 1 год\n')
+
+#try:
+#    salary = int(input("Сколько зарплата у вас на двоих? \n"))
+#except ValueError:
+#        print("Вы ввели буквы")
+#def func (z, h = 12):
+#     res4 = (z * h) * 1              # За год
+#     return res4
+#print (func (salary),'шекелей за 1 год\n')
+#
+#try:
+#    Mashkanta = int(input("Введите сумму вашей Машканты в Месяц:\n"))
+#except ValueError:
+#     print("Вы ввели буквы\n")
+#def func (r, j = 12):
+#    res5 = (r * j) * 28
+#    return res5
+#print (func (Mashkanta),'шекелей за 28 лет\n')
+#
+#print ('Охуеешь платить')
+
+#a = set('e,r,g,e,y')
+#b = set('i,v,a,n,u,s,h,i,n')
+#c = b.intersection(a)
+#b = a.add('S')
+#z = b.remove('u')
+#print (b)
+
+#a = 'Будучи итерируемыми контейнерами множества могут передаваться функции , использоваться в циклах  и в генераторах списков. Однако так как множества являются неупорядоченными коллекциями, они не поддерживают операции над последовательностями такие как индексирование и извлечение среза'
+#a = len(a)
+#print(a)
+
+#for item in list('Будучи итерируемыми контейнерами множества могут передаваться функции '):
+#    print(item * 1)
+#while True:
+#          import random
+#          try:
+#             a = str(input("Выберите от 1 до 12 - сильную цифру\n"))
+#          except ValueError:
+#              print(a)
+#          try:
+#             b = str(input("Выберите 6 цифр от 1 до 37, если нажмете ENTER система предложет вам автоматом\n"))
+#          except ValueError:
+#              print(b)
+#          for i in range (6):
+#           print(random.randint(1,37))
+#          print ()
+#          for i in range (6):
+#           print(random.randint(1,37))
+#          print()
+#          for i in range(6):
+#           print(random.randint(1,37))
+#          print()
+
+#engineers = {'Victor', 'Sergey', 'Nastya', 'Ben'}
+#menagers = {'Anton', 'Ira', 'Ben'}
+#Qa = {'Anton', 'Dima', 'Vasya', 'Ben'}
+#Test = Qa
+#Qa = {'Spam'}
+#print(Test)
+#print(Qa | menagers)
+#print(engineers ^ menagers)
+#print(menagers | Qa)
+#print(menagers)
+#print()
+
+#L1 = [2, 3, 4]
+#L2 = L1 + [1]
+#L1[2] = 24
+#print(L2)
+#print(L1)
+#print(L1 is L2)
+#print()
+
+#import sys
+#L1 = [2, 3, 4]
+#L2 = L1 + [2]
+#print(L1 + L2)
+#print (sys.getrefcount(engineers))
+
+#print()
+#s = 'a\nb\rc'
+#print (s)
+
+#mantra = """Always look
+#... on the bright
+#... side of life.\n"""
+
+#print(mantra * 1)
+
+#myjob = "hacker"
+#for c in myjob:
+#    print(c, end = '')
+#print()
+
+#S = "Такие преобразования могут использоваться в сочетании с операторами цикла"
+#print (S[0:70:2])
+
+#B = '1141'
+#I = 0
+#while B != '':
+#    I = I * 2 + (ord(B[0]) - ord('0'))
+#    B = B[1:]
+#    print(I)
+
+#S = 'Sergey Ivanovich Ivanushin'
+#S = S.replace('Sergey Ivanovich', 'Anastasiya Alexsandrovna')
+#print(S + 'a')
+
+
+#w = 'spammy'
+#m = list(w)
+#m[3] = 't'
+#m[4] = 't'
+#p = ''.join(m)
+#print(p)
+
+
+#m = 'Svinotina'
+#m = 'Sergey %s' % m
+#s = 'Sergey %d %s %s ivanuhsin' % (34, 'Ivanovich', 'Give me a money')
+#print(m,s)
+#print()
+
+#reply = """ Greetings...
+# Hello %(name)s!
+# Your age squared is %(age)s!\n"""
+#values = {'name': 'Sergey', 'age': 34}
+
+#reply1 = """You from %(city)s\n"""
+#nado = {'city':'Rishon'}
+
+#reply2 = """You are %(bot)s!!!"""
+#wina = {'bot': 'Vasia'}
+#wina1 = 2019
+#wina2 = 'I am'
+#wina3 = vars()
+#print('%(wina1)d %(wina2)s')
+#print(reply % values, reply1 % nado, reply2 % wina)
+#print()
+
+#tample = '{3}, {2} gulat {1} {0}'
+#print (tample.format('ya','idu','seychas', 'ponatno?'))
+
+
+#primer = '{moko},{sharik} {bum} with Gugusha {zont}'
+#print (primer.format(moko = 'Sergey',sharik = 'want', bum = 'sex', zont = 'every day'))
+
+#import sys
+#fx = 'My {1[spam]} runs {0.platform}'.format(sys, {'spam': 'laptop'})
+#print(fx)
+
+
+#y = 'the {} state {} life {}'
+#print (y.format('most','of','more'))
+
+#s = 'spam,dada,efe e, erw,dasdad,sddf'
+#print (s.split('s')[0])
+
+#p = 'В отличие от строк, списки могут увеличиваться и уменьшаться непосред ственно их длина может изменяться) и могут содержать не только односим- вольные строки, но и любые другие объекты (списки гетерогенны). Списки могут содержать другие сложные объекты и поддерживают возможность создания произвольного числа уровней вложенности, поэтому имеется воз- можность создавать списки списков из списков и так далее.'
+#print (len(p))
+
+#l = list('spam')
+#l = l[:2]
+#l1 = list('puk')
+#l2 = l + l1
+#l2 = len(l2)
+#print(l2)
+
+
+#v = str([1,2]) + '34'
+#print(v)
+
+#k = [1,2] + list('34')
+#print(k)
+
+#e = 3 in [1,2,3]
+#print(e)
+
+#for x in [s,k,m]:
+#    print(x)
+
+#res = [c * 2 for c in 'SPAM']
+#print(res)
+
+#mor = []
+#for c in 'HREN':
+#    mor.append(c * 3)
+#print(mor)
+
+#sev = list(map(abs,[-1,-2,-21213,0,2,1]))
+#print(sev)
+
+#nol = ['spam','SPAM','SpAm']
+#print(nol[1][2])
+
+#klo = [[1,2,3],[4,5,6],[7,8,9]]
+#print(klo[0][1])
+
+k = ['spam','MOH','Poh','SHok']
+k.extend(['Jus','NAS'])
+k.pop()
+#k.sort(key = str.lower, reverse = True)
+#k = sorted([x.lower()for x in k], reverse=True)
+print(k)
+
+
+v = 195+310+450+110+3000+145+400
+print(v)
+
+m = list(zip(['a','b','c'],[1,2,3]))
+print (m)
+
+k = dict(zip(['a','b','c'],[1,2,3]))
+print (k)
+
+d = {k:v for (k,v) in zip(['a','b','c'],[1,2,3])}
+print(d)
+
+h = {x: x ** 2 for x in [1, 2, 3, 4]}
+print(h)
+
+o = {c: c * 4 for c in 'SPAM'}
+print(o)
+
+#j = {c.lower(): c + '!' for c in ['SPAM', 'EGGS', 'HAM']}
+#print(j)
+
+#q = {k:0 for k in ['a', 'b', 'c']}
+#print(q)
+
+#f = dict.fromkeys(['a', 'b', 'c'], 0)
+#print(f)
+
+#t = dict.fromkeys('spam')
+#print(t)
+
+#w = dict(a=1, b = 2, c = 3)
+#t = w.values()
+#t = w.keys()
+#print(t)
+
+#g = (1,2)+(3,4)
+#print(g)
+
+#g = (1,3)*4
+#print(g)
+
+#T = (1,2,3,4)
+#T = T[0], T[1:3]
+#print(T)
+
+#T = (1,2,3,4,5,6,7)
+#L = [x + 100 for x in T]
+#print(L)
+
+#T = (1, 2, 3, 2, 4, 2)
+#T = T.index(2)
+#T = T.index(2,2)
+#T = T.count(3)
+#print(T)
+
+
+
+#myfile = open('myfile.txt', 'w')
+#myfile.write('Hello text file\n')
+#myfile.write('Goodbye text file\n')
+#myfile.write('Hello1 text file\n')
+#myfile.write('Goodbye1 text file\n')
+#myfile.close()
+
+#import os
+
+#myfile = open('myfile1.txt')
+#sum = sum(1 for line in myfile)
+#myfile.readline()
+#len = len(open('myfile.txt').readlines())
+#print(len)
+#print(open('myfile1.txt').read())
+#print(sum)
+#print (os.stat('myfile1.txt').st_size)
+
+#D = [1,2,3]
+#F ={'a':2,'b':3}
+#B = list(D)
+#P = 4
+#V = F.copy()
+#print(B)
+#print(V,'+',P)
+
+#L = [1,4,7]
+#X = L * 4
+#Y = [L] * 5
+#L[0] = 6
+#L[1] = 3
+#L[2] = 2
+#print(Y)
+
+#V = ['Sergey','nat']
+#V[0] = 'Moh'
+#print(V)
+
+
+#T = [0,1,2,3]
+#T = T[:1] + ['?']
+#print(T)
+
+
+#S = ['Mercedes']
+#S.append(S)
+#print(S)
+
+
+#V = ('Генераторы списков в действительности являются операциями над последова тельностями – они всегда создают новые списки, но они могут использоваться для обхода содержимого любых объектов последовательностей, включая кор- тежи, строки и другие списки. Как будет показано дальше, они могут приме- няться даже к программным компонентам, которые физически не являются последовательностями, – к любым объектам, поддерживающим возможность выполнения итераций, включая файлы, которые автоматически читаются строка за строкой.')
+#if 'спи' in V:
+#    print('YES')
+#else:
+#    print('NO')
+#V = V.count('спи')
+#print(V)
+
+
+#import os
+
+#myfile = open('myfile1.txt')
+#sum = sum(1 for line in myfile)
+#myfile.readline()
+#len = len(open('myfile1.txt').readlines())
+#print(len)
+#print(open('myfile1.txt').read())
+#print(sum)
+#print (os.stat('myfile1.txt').st_size)
+
+#x = 'old'
+#def function():
+#  global x, y; x = 'new'
+#print(x)
+
+
+#if x > p:
+#    x = 1
+#    p = 2
+#    print()
+
+#mlist = [111,
+#         222,
+#         333]
+#print(mlist)
+
+
+#L = [1,2,3,4,5]
+#print(L, file=open('Poh1.txt','w'))
+
+
+
+#while L:
+#    L = [1,2,3,4,5]
+#    front, *L = L
+#    print(front, L, file = open ('new1file.txt', 'w'))
+
+#with open('newfile.txt', 'w', encoding='utf-8') as g:
+#    d = int(input())
+#    print('1 / {} = {}'.format(d, 1 / d), file=g)
+
+#while True:
+#    reply = input('Enter Text: ')
+#    if reply == 'stop' or 'STOP' or 'StOp':
+#        break
+#    elif not reply.isdigit():
+#        print('Bad Number')
+#    else:
+#        print(int(reply) ** 2)
+#print('Bye')
+
+#while True:
+#    reply = input('Enter text:')
+#    if reply == 'Stop': break
+#    try:
+#        num = int(reply)
+#    except:
+#        print('Bad!' * 8)
+#    else:
+#        print(int(reply) ** 3)
+#print('Bye')
+
+
+#while True:
+#     reply = input('Enter text:')
+#     if reply == 'stop':
+#         break
+#     elif not reply.isdigit():
+#        print('Bad!' * 8)
+#     else:
+#          num = int(reply)
+#          if num < 20:
+#              print('low')
+#          elif num > 25:
+#              print('Hight')
+#          else:
+#              print(num ** 2)
+#print('Bye')
+
+#import  sys
+#sys.stdout = open ('log.txt','a')
+
+#L = [1,2,3,4,5]
+#while L:
+#       front, *L = L
+#       print (front, L)
+
+#import sys
+#temp = sys.stdout
+#temp = temp[1:0],[1:3]
+#sys.stdout = open('loto.txt','a')
+
+#sys.stdout.close()
+#sys.stdout = temp
+#print(open('loto.txt').read())
+
+
+#file = open('loto.txt','r')
+#for m in file.read():
+#   # m = 'a'
+#    if m == 'a':
+#        print('kak to tak')
+#    elif m == 'm':
+#        print('nado')
+#    else:
+#        print('nujno')
+
+x = 'killer rabbit'
+if x == 'roger':
+    print('how’s jessica?')
+elif x == 'bugs':
+    print('what’s up doc?')
+else:
+    print('Run away! Run away!')
+
+
+branch = {'spam': 1.25,
+          'ham': 1.99,
+          'eggs': 0.99}
+print (branch.get('eggs', 'Bad choice'))
+
+choice = 'beacon'
+if choice in branch:
+    print(branch[choice])
+else:
+    print('Bad Fuck')
+    
+x = 'spamma'
+while x:
+    print(x, end = ' ')
+    x = x[1:]
+
+a = 1; b = 19
+while a < b:
+    print(a, end = ' ')
+    a +=1
+
+found = False
+while x and not found:
+    if match(x[0]):
+        Print('Ni')
+        found = True
+    else:
+        x = x[1:]
+if not found:
+    print('not found')
+
+prod = 2
+for item in [1,3,4,6]: prod *= item
+print(prod)
+
+T = [(1, 2), (3, 4), (5, 6)]
+for (a,b) in T:
+    print(a,b)
+
+D = {'a':1,'b':2,'c':3}
+for key in D:
+    print(key, '=>', D[key])
+list(D.items())
+print(D)
+for (key,value) in D.items():
+    print(key, '=>', value)
+
+for both in T:
+    a, b = both
+    print(a,b)
+
+items = ['aaa', 111, (4, 5), 2.01]
+tests = [(4, 5), 3.14]
+for key in tests:
+    if key in items:
+        print(key,'was found')
+    else:
+        print(key,'not found')
+
+seq1 = 'spfsdfjsdjlam'
+seq2 = 'scafdsfqefqrqem'
+res = []
+for x in seq1:
+    if x in seq2:
+        res.append(x)
+print(res, len(res))
+
+a = list(range(5)), list(range(2, 5)), list(range(0, 10, 2)), list(range(-5,5))
+print(a)
+
+for i in range(1):
+    print(i,'Phyton')
+
+V = 'spam'
+for item in V:
+    print(item, end = ' ')
+
+
+G = 'SergeyIvanushin'
+for c in G[::2]:
+   print(c, end = ' ')
+
+L = [1,2,3,4,5]
+for i in range(len(L)):
+    L[i] +=1
+    print(L)
+i = 0
+while i < len(L):
+     L[i]+=1
+     i +=1
+     print(L)
+
+L5 = [1,2,3,4,5,6,7,8,9,10]
+L6 = [1,2,3,4,5,6,7,8,9,10]
+zip(L5,L6)
+list(zip(L5,L6))
+for (x,y) in zip(L5,L6):
+    print(x,'+',y, '=', x+y)
+
+
+D1 = {}
+D1['spam'] = 1
+D1['eggs'] = 3
+D1['toast'] = 5
+keys = ['spam', 'eggs', 'toast']
+vals = [1, 3, 5]
+list(zip(keys,vals))
+D2 ={}
+for (k,v) in zip(keys,vals):
+    D2[k] = v
+    print(D2)
+
+S = 'Sergey Ivanushin'
+offset = 0
+for item in S:
+    print(item, 'Number', offset)
+    offset +=1
+
+M = 'Anastsia'
+for (offset, item) in enumerate( M):
+    print(item, 'appears at offset', offset)
+E = enumerate(M)
+print(next(E),next(E))
+
+for x in [1, 2, 3, 4]:
+    print(x ** 2, end = ' ')
+
+for x in (1, 2, 3, 4):
+    print(x ** 3, end = ' ')
+
+for x in 'spam':
+    print(x * 2 , end = ' ')
+
+#f = open('loto.txt')
+#print(f.readline())#Читает одну строку
+#print(f.__next__())
+
+
+#for line in open('mmm.txt'):
+#    print(line.upper(),end=' ')
+
+
+#f = open('mmm.txt')
+#while True:
+#    line = f.readline()
+#    if not line: break
+#    print(line.upper(), end=' ')
+
+G = [1,2,3,4,5]
+G = [x + 10 for x in G]
+Tuk = [x*2 for x in G]
+print(Tuk)
+resultat = []
+for x in Tuk:
+    resultat.append(x+11)
+print(resultat)
+
+summa = sum([1,2,3,4,5])
+print(summa)
+
+def f(a,b,c,d):
+    print(a,b,c,d, sep='&')
+print(f(1,2,3,4))
+
+r = range(10)
+print(r)
+i = iter(r)
+print(next(i))
+print(next(i))
+print(next(i))
+print(list(range(10)))
+print(len(r))
+print(next(i))
+M = map(abs, (-1, 0, 1))
+print(next(M))
+print(next(M))
+print(next(M))
+
+M = map(abs,(-1,0,1))
+for x in M:
+    print(x)
+C = list(map(abs,(-1,0,1)))
+print(C)
+
+Z = zip((1,2,3,4),(10,20,30,40))
+print(list(Z))
+
+D = dict(a = 1, b = 2,c = 3)
+I = iter(D)
+print(next(I))
+for k in D.keys():
+    print(list(k), end= ' ')
+V = D.values()
+print(list(D), end= ' ')
+for k,v in D.items():
+    print(k,v, end=' ')
+for k in sorted(D):
+    print(k,D[k], end=' ')
+
+k = [x + y for x in 'abc' for y in 'lmn']
+print(k)
+
+X = (1,2)
+Y = (3,4)
+A,B = zip(*zip(X,Y))
+print(A)
+print(B+A)
+
+J = zip((1,2,3),(10,20,30))
+#print(list(J))
+for pair in J:
+    print(pair)
+
+
+import sys
+#print(dir([]))
+print(sys.__doc__)
+print(help(dict))
+
+
+normalText = 'Python is interesting'
+print(ascii(normalText))
+
+otherText = 'Pythön is interesting'
+print(ascii(otherText))
+
+print('Pyth\u221an is interesting')
+
+
+S ='adsd'
+for x in S:
+    print(ord(x),end=' ')
+
+
+S = 'adsd'
+n = 0
+for x in S:
+    n += ord(x)
+    print(n, end=' ')
+
+S = 'asdffsfsd'
+S = sum(ord(x) for x in S)
+print(S)
+
+
+S = 'sjdlka'
+for i in range(50):
+    print('hello %d\n\a' %i)
+
+
+q = ('Ham', 'SPam,', 'Per')
+def adder (a, b = 1, *c):
+    return a+b+c[0]
+print(q)
+
+
+def LastFirst(firstname, lastname):
+    razdelitel = ('cамый умный')
+    razdelitel2 = (' ')
+    result = firstname + razdelitel2 + lastname + razdelitel2 + razdelitel
+    return result
+
+def LastFirst1(firstname1, lastname1):
+    razdelitel1 = ('cамая Лучшая')
+    razdelitel3 = (' ')
+    result = firstname1 + razdelitel3 + lastname1 + razdelitel3 + razdelitel1
+    return  result
+print(LastFirst('Сергей','Иванюшин'))
+print(LastFirst1('Анастасия','Лишнева'))
+print(LastFirst('Vasia','Pupkin'))
+
+
+
+def summachisel(x, y):
+    sum = x + y
+    return 'Ввод суммы  {} плюс {} будет {}.'.format(x,y,sum)
+
+def main():
+    print(summachisel(4,5))
+    a = int(input('Ввод первого числа: '))
+    b = int(input('Ввод второго числа: '))
+    print(summachisel(a,b))
+
+main()
+
+def intersect(seq1, seq2):
+    res = []
+    for x in seq1:
+        if x in seq2:
+            res.append(x)
+    return res
+s1 = '1,2,3'
+s2 = '1,2,3'
+#print(intersect(s1,s2))
+x = intersect([1,2,3],(4,2))
+print(x)
+
+
+z = 3
+def times(x,y):
+    return x + y, x * y
+print(times(3,10))
+x = times(5,9)
+print(x)
+
+
+
+X = 88
+def func():
+    global X
+    X = 99
+func()
+print(X)
+
+y, z = 4, 6
+def all_global():
+    global x
+    x = y + z
+all_global()
+print(x)
+
+X = 99
+def func1():
+    global X
+    X = 88
+def func2():
+    global X
+    X = 77
+print(X)
+
+var = 99
+def local():
+    var = 0
+
+def glob1():
+    global var
+    var += 1
+
+def glob2():
+    var = 0
+    import thismod
+    glob.var += 1
+
+def glob3():
+    var = 0
+    import sys
+    glob = sys.modules['thismod']
+    glob.var += 1
+
+def test():
+    print(var)
+    local(); glob1(); glob2(); glob3()
+    print(var)
+
+X = 99
+def f1():
+    X = 88
+    def f2():
+        print(X)
+    f2()
+f1()
+
+
+def f1():
+    X = 88
+    def f2():
+        print(X)
+    return f2
+
+action = f1()
+action()
+
+
+def maker(N):
+    def action(X):
+        return X * N
+    return action
+f = maker(2)
+print(f(3))
+g = maker(3)
+print(g(3))
+
+def f1():
+    x = 88
+    def f2(x=x):
+        print(x)
+    f2()
+f1()
+
+def func():
+    x = 4
+    action = (lambda n: x ** n)
+    return action
+x = func()
+print(x(2))
+
+def makeActions():
+    acts = []
+    for i in range(5):
+        acts.append(lambda x, i=i: i ** x)
+    return acts
+acts = makeActions()
+print(acts[0](2))
+print(acts[2](2))
+print(acts[4](2))
+
+def f1():
+    x = 99
+    def f2():
+        def f3():
+            print(x)
+        f3()
+    f2()
+f1()
+
+def tester(start):
+    state = start
+    def nested(label):
+        print(label, state)
+    return nested
+F = tester(0)
+F('spam')
+F('ham')
+
+def tester(start):
+    state = start
+    def nested(label):
+            nonlocal state
+            print(label, state)
+            state += 1
+    return nested
+F = tester(0)
+F('spam')
+F('ham')
+F('eggs')
+F('dada')
+G = tester(42)
+G('spam')
+G('eggs')
+F('bacon')
+F('Moh')
+
+def tester(start):
+    def nested(label):
+        global state
+        state = 0
+        print(label, state)
+    return nested
+F = tester(0)
+F('abc')
+print(state)
+
+
+def tester(start):
+    state = start
+    def nested(label):
+        nonlocal state
+        print(label, state)
+        state += 1
+    return nested
+F = tester(0)
+F('spam')
+
+def tester(start):
+    global state
+    state = start
+    def nested(label):
+        global state
+        print(label, state)
+        state += 1
+    return nested
+F = tester(0)
+F('spam')
+F('eggs')
+G= tester(42) # Сбросит значение единственной копии state
+G('toast') # в глобальной области видимости
+G('bacon')
+F('ham')# Ой – значение моего счетчика было затерто!
+
+
+class tester: # Альтернативное решение на основе классов (Часть VI)
+    def __init__(self, start):   # Конструктор объекта,
+        self.state = start   # сохранение информации в новом объекте
+    def nested(self, label):
+        print(label, self.state) # Явное обращение к информации
+        self.state += 1
+F = tester(0)
+F.nested('spam') # Ссылка на F будет передана в аргументе self
+F.nested('ham')
+G = tester(42)  # Каждый экземпляр получает свою копию информации
+G.nested('toast') # Изменения в одном объекте не сказываются на других
+G.nested('bacon')
+F.nested('eggs') # В объекте F сохранилась прежняя информация
+F.state
+
+
+class tester:
+    def __init__(self, start):
+        self.state = start
+    def __call__(self, label):
+        print(label, self.state)
+        self.state += 1
+H = tester(99)
+H('juice')
+H('pancakes')
+
+
+def tester(start):
+    def nested(label):
+        print(label, nested.state)
+        nested.state += 1
+    nested.state = start
+    return nested
+F = tester(0)
+F('spam')
+F('ham')
+F.state
+G = tester(42)
+G('eggs')
+F('ham')
+
+X = 'Spam'
+def func():
+    print(X)
+func()
+
+X = 'Spam'
+def func():
+    X ='NI!'
+func()
+print(X)
+
+X = 'Spam'
+def func():
+    X = 'NI'
+    print(X)
+func()
+print(X)
+
+
+X = 'Spam'
+def func():
+    global X
+    X = 'NI'
+func()
+print(X)
+
+X = 'Spam'
+def func():
+    X = 'NI'
+    def nested():
+        print(X)
+    nested()
+func()
+
+def func():
+    X = 'NI'
+    def nested():
+        nonlocal X
+        X = 'Spam'
+    nested()
+    print(X)
+func()
+
+def f(a):
+    a = 99
+b = 88
+f(b)
+print(b)
+
+def changer(a,b):
+    a = 2
+    b[0] = 'Spam'
+X = 1
+L = [1,2]
+changer(X,L)
+print(X,L)
+
+L = [1,2]
+B = L
+B[0] = 'SPAM'
+print(L)
+
+
+def multiple(x, y):
+    x = 2
+    y = [3,4]
+    return x, y
+X = 1
+L = [1,2]
+X,L = multiple(X, L)
+print(X, L)
+
+def func(a, b, c, d):
+    print(a, b, c, d)
+args = (1, 2)
+args += (3, 4)
+func(*args)
+
+args = {'a': 1, 'b': 2, 'c': 3}
+args['d'] = 4
+func(**args)
+
+
+def test():
+    if test:
+        action, args = func1, (1,)
+    else:
+        action, args = func2, (1, 2, 3)
+    action(*args)
+
+
+def tracer(func, *pargs, **kargs):
+    print('calling:', func.__name__)
+    return func(*pargs, **kargs)
+
+def func(a,b,c,d):
+    return a + b + c + d
+print(tracer(func, 1, 2, c = 3, d = 4))
+
+
+def kwonly(a, *, b, c):
+    print(a, b, c)
+kwonly(1, c = 3, b = 2)
+kwonly(c=3, b=2, a=1)
+
+
+def min1(*args):
+    res = args[0]
+    for arg in args[1:]:
+        if arg > res:
+            res = arg
+    return res
+
+def min2(first, *rest):
+    for arg in rest:
+        if arg > first:
+            first = arg
+    return first
+
+def min3(*args):
+    tmp = list(args)
+    tmp.sort()
+    return tmp[0]
+
+print(min1(3,4,1,2,3,4,6,7,8,9,54,12,3,4,6,7,0,0,9,23,4))
+print(min2('xx','cc','bb','aa'))
+print(min3([2,2],[1,1],[3,3]))
+
+
+def minmax(test, *args):
+    res = args[0]
+    for arg in args[1:]:
+        if test(arg, res):
+            res = arg
+    return res
+def lessthan(x, y): return x < y
+def grtrthan(x, y): return x > y
+print(minmax(lessthan, 4, 2, 1, 5, 6, 3))
+print(minmax(grtrthan, 4, 2, 1, 5, 6, 3))
+
+
+def intersect(*args):
+    res = []
+    for x in args[0]:
+        for other in args[1:]:
+            if x not in other: break
+            else:
+                res.append(x)
+    return res
+def union(*args):
+    res = []
+    for seq in args:
+        for x in seq:
+            if not x in res:
+                res.append(x)
+    return res
+
+def func(a, b = 4, c = 5):
+    print(a,b,c)
+func(1, c=3, b=2)
+
+def func(a, b = 4, c = 5):
+    print(a,b,c)
+func(1,2)
+
+def func(a, *parg):
+    print(a, parg)
+func(1,2,3)
+
+def func(a, **kargs):
+    print(a, kargs)
+func(a=1, c=3, b=2)
+
+def func(a, b, c=3, d=4):
+    print(a, b, c, d)
+func(1, *(5,6))
+
+
+def mysum(L):
+    if not L:
+        return 0
+    else:
+        return L[0] + mysum(L[1:])
+print(mysum([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]))
+
+
+def mysum(L):
+    return 0 if not L else L[0] + mysum(L[1:])
+print(mysum([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]))
+
+
+def mysum(L):
+    return L[0] if len(L) == 1 else L[0] + mysum(L[1:])
+print(mysum([1,2,3,4,5,6,7,8,9,10]))
+
+
+def mysum(L):
+    first, *rest = L
+    return first if not rest else first + mysum(rest)
+print(mysum(('s', 'p', 'a', 'm')))
+print(mysum(['Spam', 'Hasa', 'Eggs']))
+
+
+def mysum(L):
+    if not L:
+        return 0
+    return noempty(L)
+
+def noempty(L):
+    return L[0] + mysum(L[1:])
+print(mysum([1.1, 2.2, 3.3, 4.4]))
+
+
+L = [1,2,3,4,5,4,1,2]
+sum = 0
+for x in L:
+    sum += x
+print(sum)
+
+
+L = [1, 2, 3, 4, 5]
+sum = 0
+while L:
+    sum += L[0]
+    L = L[1:]
+print(sum)
+
+
+def sumtre(L):
+    tot = 0
+    for x in L:
+        if not isinstance(x, list):
+            tot += x
+        else:
+            tot += sumtre(x)
+    return  tot
+L = [1, [2, [3, 4], 5], 6, [7, 8]]
+print(sumtre(L))
+print(sumtre([1, [2, [3, [4, [5]]]]]))
+print(sumtre([[[[[1], 2], 3], 4], 5]))
+
+
+def make(label):
+    def echo(message):
+        print(label + ':' + message)
+    return echo
+F = make('SPAM')
+F('HAM')
+F('EGGAS')
+
+
+def func(a: 'SPAM', b: (1,10), c: float):
+    return (a + b) * c
+print(func(1,2,4))
+print(func.__annotations__)
+
+
+f = lambda x,y,z: x + y + z
+print(f(1,2,3))
+
+
+def korol():
+    zagolovok = 'Sir'
+    action = (lambda x: zagolovok + ' ' + x)
+    return action
+def koroleva():
+    zagolovok2 = 'Miss'
+    action2 = (lambda x: zagolovok2 + ' ' + x)
+    return action2
+act = korol()
+act2 = koroleva()
+print(act('Shlomo'))
+print(act('Sergey'))
+print(act('Vasia'))
+print(act2('Anastsia'))
+print(act2('Ekaterina'))
+
+
+def action(x):
+    return (lambda y: x + y)
+act = action(99)
+print(act(6))
+
+
+count = [1,2,3,4,5]
+update = []
+for x in count:
+    update.append(x + 10)
+print(update)
+
+def inc(x):
+    return x + 10
+print(list(map(inc, count)))
+
+list(map((lambda x: x + 3), count))
+
+
+def mymap(func, seq):
+    res = []
+    for x in seq: res.append(func(x))
+    return res
+print(list(map(inc, [1,2,3,4,5])))
+print(mymap(inc, [1, 2, 3,4,5]))
+print(pow(3,4))
+print(list(map(pow, [1, 2, 3], [2, 3, 4])))
+
+print(list(range(-5,5)))
+print(list(filter((lambda x: x > 0), range (-9,10))))
+
+res = [ ]
+for x in range(-5, 5):
+    if x > 0:
+        res.append(x)
+print(res)
+
+from functools import reduce
+print(reduce((lambda x, y: x + y), [1,2,3,4]))
+print(reduce((lambda x, y: x * y), [1,2,3,4]))
+
+
+L = [1,2,3,4]
+res = L[0]
+for x in L[1:]:
+    res = res + x
+print(res)
+res1 = L[0]
+for x in L[1:]:
+    res1 = res1 * x
+print(res1)
+
+
+def myreduce(function, secuance):
+    tally = secuance[0]
+    for next in secuance[1:]:
+        tally = function(tally, next)
+    return tally
+print(myreduce((lambda x, y: x + y), [1,2,3,4,5]))
+print(myreduce((lambda x, y: x * y), [1,2,3,4,5]))
+
+import operator, functools
+print(functools.reduce(operator.add, [2, 4, 6]))
+print(functools.reduce((lambda x, y: x + y), [2, 4, 6]))
+
+res = []
+for x in 'Sergey':
+    res.append(ord(x))
+print(res)
+
+res = list(map(ord, 'Sergey'))
+print(res)
+
+res = [x ** 2 for x in range(10)]
+print(res)
+
+res = list(map((lambda x: x ** 2), range(10)))
+print(res)
+
+
+res = [x for x in range(5) if x % 2 == 0]
+print(res)
+
+res = list(filter((lambda x: x % 2 == 0), range(5)))
+print(res)
+
+res = []
+for x in range(5):
+    if x % 2 == 0:
+        res.append(x)
+print(res)
+
+
+res = [x ** 2 for x in range(10) if x % 2 == 0]
+print(res)
+
+res = list(map((lambda x: x**2), filter((lambda x: x % 2 == 0), range(10))))
+print(res)
+
+res = []
+for x in range(10):
+    if x % 2 == 0:
+        res.append(x ** 2)
+print(res)
+
+
+res = [x + y for x in [0, 1, 2] for y in [100, 200, 300]]
+print(res)
+
+res = []
+for x in [0, 1, 2]:
+    for y in [100, 200, 300]:
+        res.append(x + y)
+print(res)
+
+
+res = [x + y for x in 'spam' for y in 'SPAM']
+print(res)
+
+
+res = [(x,y) for x in range(10) if x % 2 == 0 for y in range(5) if y % 2 == 1]
+print(res)
+
+
+res = []
+for x in range(5):
+    if x % 2 == 0:
+        for y in range(5):
+            if y % 2 == 1:
+                res.append((x, y))
+print(res)
+
+
+M = [[1,2,3],
+     [4,5,6],
+     [7,8,9]]
+
+N = [[2,2,2],
+     [3,3,3],
+     [4,4,4]]
+print(M[2])
+print(N[1])
+print(M[1][2])
+print([row[1] for row in N])
+print([M[row][1] for row in (0, 1, 2)])
+print([M[row][col] * N[row][col] for row in range(3) for col in range(3)])
+print([[M[row][col] * N[row][col] for col in range(3)] for row in range(3)])
+
+res = []
+for row in range(3):
+    tmp = []
+    for col in range(3):
+        tmp.append(M[row][col] * N[row][col])
+    res.append(tmp)
+print(res)
+
+listofjob = [('Bob', 24, 'cleark', 1944),('Mel', 33, ' IT', 1965),('Miri', 45, 'Devops', 1988), ('Vic', 34, 'Devops', 1985)]
+print([job for (name, age, job, DateBithday) in listofjob])
+
+
+def gens(N):
+    for i in range(N):
+        yield i ** 2
+for i in gens(10):
+    print(i, end = ':')
+
+
+def gens(N):
+    for i in range(N):
+        yield i ** 2
+for i in gens(10):
+    print(i, end = ':')
+    x = gens(5)
+print(next(x))
+print(next(x))
+
+def buildsquares(n):
+    res = []
+    for i in range(n): res.append(i**2)
+    return res
+for x in buildsquares(5):
+    print(x, end = ':')
+
+
+for x in [n**2 for n in range(5)]:
+    print(x, end = ' : ')
+
+for x in map((lambda x:x**2), range(5)):
+    print(x, end= ' : ')
+
+
+def gen():
+    for i in range(10):
+        X = yield i
+        print(X)
+G = gen()
+print(next(G))
+print(G.send(77))
+print(G.send(88))
+
+
+Y = sorted((x ** 2 for x in range(4)), reverse = True)
+print(Y)
+
+Y = sum(x ** 2 for x in range(4))
+print(Y)
+
+Y = sorted(x ** 2 for x in range(4))
+print(Y)
+
+import math
+Y = list(map(math.sqrt, (x ** 2 for x in range(4))))
+print(Y)
+
+
+G = (c * 4 for c in 'SPAM')
+print(list(G))
+
+
+def timesfour(S):
+    for c in S:
+        yield c * 4
+G = timesfour('spam')
+print(list(G))
+
+
+G = (c * 4 for c in 'SPAM')
+print(list(G))
+
+
+def timesfour(S):
+    for c in S:
+        yield c * 4
+G = timesfour('spam')
+print(list(G))
+
+G = (c * 4 for c in 'SPAM')
+I = iter(G)
+print(next(I))
+print(next(I))
+print(next(I))
+print(next(I))
+G = timesfour('spam')
+I = iter(G)
+print(next(I))
+print(next(I))
+print(next(I))
+print(next(I))
+
+G = (c ** 4 for c in 'SPAM')
+print(iter(G) is G)
+
+
+G = (c * 4 for c in 'SPAM')
+I1 = iter(G)
+print(next(I1))
+print(next(I1))
+I2 = iter(G)
+print(next(I2))
+print(list(I1))
+I3 = iter(c * 4 for c in 'SPAM')
+print(next(I3))
+
+def timesfour(S):
+    for c in S:
+        yield c * 4
+G = timesfour('spam')
+print(iter(G) is G)
+I1, I2 = iter(G), iter(G)
+print(next(I1))
+print(next(I1))
+print(next(I2))
+
+L = [1, 2, 3, 4]
+I1, I2 = iter(L), iter(L)
+print(next(I1))
+print(next(I1))
+print(next(I2))
+del L[2:]
+
+
+S1 = 'abc'
+S2 = 'xyz123'
+print(list(S1+S2))
+print(list(zip(S1,S2)))
+print(list(zip([-2, -1, 0, 1, 2])))
+print(list(zip([1, 2, 3], [2, 3, 4, 5])))
+print(list(map(abs, [-2, -1, 0, 1, 2])))
+print(list(map(pow, [1, 2, 3], [2, 3, 4, 5])))
+
+
+def mymap(func, *seqs):
+    res = []
+    for args in zip(*seqs):
+        res.append(func(*args))
+    return res
+print(mymap(abs, [-2, -1, 0, 1, 2]))
+print(mymap(pow, [1, 2, 3], [2, 3, 4, 5]))
+
+
+def mymap(func, *seqs):
+    return [func(*args) for args in zip(*seqs)]
+print(mymap(abs, [-2, -1, 0, 1, 2]))
+print(mymap(pow, [1, 2, 3], [2, 3, 4, 5]))
+
+
+def mymap(func, *seqs):
+    res = []
+    for args in zip(*seqs):
+        yield func(*args)
+def mymap(func, *seqs):
+    return (func(*args) for args in zip(*seqs))
+print(list(mymap(abs, [-2, -1, 0, 1, 2])))
+print(list(mymap(pow, [1, 2, 3], [2, 3, 4, 5])))
+
+
+def myzip(*seqs):
+    seqs = [list(S) for S in seqs]
+    res = []
+    while all(seqs):
+        res.append(tuple(S.pop(0) for S in seqs))
+    return res
+def mymapPad(*seqs, pad=None):
+    seqs = [list(S) for S in seqs]
+    res = []
+    while any(seqs):
+        res.append(tuple((S.pop(0) if S else pad) for S in seqs))
+    return res
+S1, S2 = 'abc', 'xyz123'
+print(myzip(S1, S2))
+print(mymapPad(S1, S2))
+print(mymapPad(S1, S2, pad = 99))
+
+
+def myzip(*seqs):
+    seqs = [list(S) for S in seqs]
+    while all(seqs):
+        yield tuple(S.pop(0) for S in seqs)
+def mymapPad(*seqs, pad=None):
+    seqs = [list(S) for S in seqs]
+    while any(seqs):
+        yield tuple((S.pop(0) if S else pad) for S in seqs)
+S1, S2 = 'abc', 'xyz123'
+print(list(myzip(S1, S2)))
+print(list(mymapPad(S1, S2)))
+print(list(mymapPad(S1, S2, pad=99)))
+
+
+def myzip(*seqs):
+    minlen = min(len(S) for S in seqs)
+    return [tuple(S[i] for S in seqs) for i in range(minlen)]
+def mymapPad(*seqs, pad=None):
+    maxlen = max(len(S) for S in seqs)
+    index = range(maxlen)
+    return [tuple((S[i] if len(S) > i else pad) for S in seqs) for i in index]
+S1, S2 = 'abc', 'xyz123'
+print(myzip(S1, S2))
+print(mymapPad(S1, S2))
+print(mymapPad(S1,S2, pad = 99))
+
+def myzip(*seqs):
+    minlen = min(len(S) for S in seqs)
+    return (tuple(S[i] for S in seqs) for i in range(minlen))
+print(list(myzip(S1, S2)))
+
+#def myzip(*args):
+#    iters = list(map(iter, args))
+#    while iters:
+#        res = [next(i) for i in iters]
+#        yield tuple(res)
+#print(list(myzip('abc','lmnop')))
+
+
+D = {'a':1, 'b':2, 'c':8}
+x = iter(D)
+print(next(x))
+
+for key in D:
+    print(key, D[key])
+
+for line in open('log.txt'):
+    print(line, end='')
+
+
+p = [x * x for x in range(10)] # Генератор списков: конструирует список
+print(p)                       # подобно вызову list(generator expr)
+
+p = (x * x for x in range(10))  # Выражение-генератор: воспроизводит
+print(p)                        # элементы. Скобки часто необязательны
+
+p = {x * x for x in range(10)}  # Генератор множеств, новинка в 3.0
+print(p)                        # {x, y} – литерал множества в 3.0
+
+p = {x: x * x for x in range(10)} # Генератор словарей, новинка в 3.0
+print(p)
+
+
+v = {x * x for x in range(10)} # Генератор
+print(v)
+
+v = set(x * x for x in range(10)) # Генератор и конструктор типа
+print(v)
+
+v = {x: x * x for x in range(10)}
+print(v)
+
+v = dict((x, x * x) for x in range(10))
+print(v)
+
+
+res = set()
+for x in range(10):
+    res.add( x * x)
+print(res)
+
+res = {}
+for x in range(10):
+    res[x] = x * x
+print(res)
+
+g = ((x, x * x) for x in range(10))
+print(list(next(g)))
+print(list(next(g)))
+print(list(next(g)))
+print(list(next(g)))
+
+
+m = [x * x for x in range(10) if x]
+print(m)
+
+m = [x * x for x in range(10) if x % 2 == 0]  # Списки упорядочены
+print(m)
+
+m = {x * x for x in range(10) if x % 2 == 0}  #А множества - нет
+print(m)
+
+m = {x: x * x for x in range(10) if x % 2 == 0}
+print(m)
+
+
+l = [x + y for x in [1,2,3] for y in [4,5,8]]  # Списки сохраняют дубликаты
+print(l)
+
+l = {x + y for x in [1,2,3] for y in [4,5,6]} # А множества - нет
+print(l)
+
+m = {x: x * x for x in range(10) if x % 2 == 0} # Как и ключи словаря
+print(m)
+
+m = [x + y for x in [1, 2, 3] for y in [4, 5, 6]] # Списки сохраняют дубликаты
+print(m)
+
+m = {x + y for x in [1, 2, 3] for y in [4, 5, 6]} # А множества - нет
+print(m)
+
+m = {x: y for x in [1, 2, 3] for y in [4, 5, 6]} # Как и ключи словарей
+print(m)
+
+g = {x + y for x in 'ab' for y in 'cd'}
+print(g)
+
+g = {x + y: (ord(x), ord(y)) for x in 'ab' for y in 'cd'}
+print(g)
+
+m = {k * 2 for k in ['spam', 'ham', 'sausage'] if k[0] == 's'}
+print(m)
+
+m = {k.upper(): k * 2 for k in ['spam', 'ham', 'sausage'] if k[0] == 's'}
+print(m)
+
+
+X = 99
+def selector():
+    import __main__
+    print(__main__.X)
+    X = 88
+    print(X)
+selector()
+
+y = 6
+x = y // 2
+while x > 1:
+    if y % x == 0:
+        print(y, 'has factor', x)
+        break
+    x = x-1
+else:
+    print(y, 'is prime')
+
+
+print('I am:', __name__)
+def minmax(test, *args):
+    res = args[0]
+    for arg in args[1:]:
+        if test(arg, res):
+            res = arg
+    return res
+def lessthan(x, y): return x < y
+def grtrthan(x, y): return x > y
+if __name__ == '__main__':
+    print(minmax(lessthan, 4, 2, 1, 5, 6, 3)) # Код самопроверки
+    print(minmax(grtrthan, 4, 2, 1, 5, 6, 3))
